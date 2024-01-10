@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* font-family:'Courier New', Courier, monospace; */
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 248, 230);
+}
+
+#main #nav {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    gap: 445px;
+    padding: 20px 20px;
+    align-items: center;
+    /* background-color: red; */
+    border-bottom: 1px solid black;
+}
+
+#nav #link1{
+    display: flex;
+    gap: 25px;
+    font-weight: 500;
+}
+
+#nav #link2{
+    font-weight: 500;
+    display: flex;
+    gap: 25px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav a:hover {
+    transition: all ease 0.3s;
+    color: rgb(92, 87, 87);
+}
+
+#center {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+}
+
+#center #content {
+    width: 50%;
+    font-weight: 100;
+    font-size: 25px;
+    text-align: center;
+}
+
+#buttons .btn{
+    background: transparent;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 15px 40px;
+    border-radius: 40px;
+    /* width: 150px; */
+}
+
+#buttons #btn1 {
+    color: white;
+    background-color: black;
+}
+
+#card{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: 50%;
+}
+
+#card .cards {
+    position: relative;
+    width: 270px;
+    height: 90%;
+    /* background-color: black; */
+}
+
+#card .cards .imgcontent {
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid white;
+    padding: 7px;
+    font-weight: 500;
+    border-radius: 20px;
+    position: absolute;
+    color: white;
+}
+
+#card .cards .quantity {
+    border: 1px solid white;
+    padding: 7px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    right: 0;
+    position: absolute;
+    color: white;
+}
+
+#card #card2 {
+    background-image: url(https://images.unsplash.com/photo-1611010344444-5f9e4d86a6e1?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+
+#card #card1 {
+    background-image: url(https://images.unsplash.com/photo-1544003484-3cd181d17917?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+#card #card3 {
+    background-image: url(https://images.unsplash.com/photo-1582898967731-b5834427fd66?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+#card #card4 {
+    background-image: url(https://images.unsplash.com/photo-1605620622858-ea62b0a2059c?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+#card #card5 {
+    background-image: url(https://images.unsplash.com/photo-1610623822159-f4708a153735?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
